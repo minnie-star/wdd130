@@ -1,22 +1,49 @@
 nav {
-    background-color: darkblue;
+    background-color: brown;
     padding: 10px;
+    color: brown;
 }
 nav a {
-    color: white;
+    color: whitesmoke;
     display: block;
     padding: 20px;
 }
 h1 {
-    color: darkbule;
+    color: brown;
 }
 img {
     width: 150px;
     height: auto;
-    border: 1px soild black;
-    padding: 2px;
+    border: 1px black;
+    padding: 5px;
     box-shadow: 0 0 30px gray;
 }
 p {
     padding: 10px;
+}
+main {
+    width: 840px;
+}
+aside {
+    width: 40rem;
+    margin: 1rem;
+    border: 1px black;
+    padding: 1rem;
+    background-color: brown;
+    color: whitesmoke;
+    text-align: center; 
+}
+aside img {
+    width: 200px;
+}
+p {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right:0; 
+}
+footer {
+    margin: 15px;
+    border-top: 1px solid black;
+    text-align: center;
 }
