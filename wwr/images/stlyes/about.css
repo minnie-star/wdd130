@@ -1,0 +1,47 @@
+* {
+	margin: 2px;
+	padding: 2px;
+}
+:root {
+    
+    --primary-color: #05B2DC;
+    --secondary-color: #3C5233;
+    --text-color: #333333;
+    --background-color: #002642;
+    accent-color: #F2545B;
+}  
+h1 {
+    font-family: "Montserrat+Underline", "IBM+Plex+Sans";
+    color: black;
+}
+p {
+    font: "IBM+Plex+Sans";
+    color: black;
+}
+body {
+    background-color: var(--#002642);
+    color: var(--#05B2DC);
+}
+nav.sociallinks a img {
+    text-decoration: none;
+
+}
+a {
+    text-decoration: none;
+}
+.hero img {
+    display: black;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+}
+article {
+    position: absolute;
+    background-color: #002642;
+}
+article img {
+    float: right;
+    margin: 15px; 
+}
