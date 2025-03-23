@@ -1,14 +1,13 @@
-/* Define CSS Variables for Color Scheme */
 :root {
-    --primary-color: #05B2DC; /* Example blue */
-    --secondary-color: #3C5233; /* Example yellow */
-    --font-color: #333333; /* Dark gray */
-    --background-color: #002642; /* Light gray */
+    --primary-color: #05B2DC; 
+    --secondary-color: #3C5233;
+    --font-color: #333333; 
+    --background-color: #002642; 
 }
 
-/* General Styling */
+
 body {
-    font-family: 'Montserrat+Underline', sans-serif; /* Replace with your chosen Google Font */
+    font-family: 'Montserrat+Underline', sans-serif; 
     color: var(--font-color);
     background-color: var(--background-color);
     margin: 0;
@@ -24,18 +23,18 @@ p {
     line-height: 1.6;
 }
 
-/* Remove underlines from social media image links */
+
 .nav .sociallinks a img {
     text-decoration: none;
     border: none;
 }
 
-/* Hero Container */
+
 .hero {
     position: relative;
     text-align: center;
     overflow: hidden;
-    width: 100%; /* Set a relative width */
+    width: 100%; 
 }
 
 .hero img {
@@ -57,7 +56,7 @@ p {
     position: absolute;
     bottom: 10%;
     left: 10%;
-    background-color: rgba(255, 255, 255, 0.8); /* Light background with transparency */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 10px;
     border-radius: 5px;
 }
