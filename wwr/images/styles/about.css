@@ -1,48 +1,72 @@
+/* Define CSS Variables for Color Scheme */
 :root {
-    --heading-background-color: #002642; 
-    --primary-color: #05B2DC;
-    --secondary-color: #3C5233;
-    --text-color: #333333;
-    --background-color: #002642;
-    --accent-color: #F2545B;
-    --padding: 1rem;
-    --border: 1px soild rgb(0 0 0 / 0.1);
-    --heading-font: "Montserrat+Underline", IBM+Plex+Sans;
-    
-}  
-h1 {
-    background-color: var(--heading-background-color);
-    font-family: var(--heading-font);
-    padding: var(--padding);
-}    
-p {
-    font: "IBM+Plex+Sans";
-    color: var(--secondary-color);
+    --primary-color: #05B2DC; /* Example blue */
+    --secondary-color: #3C5233; /* Example yellow */
+    --font-color: #333333; /* Dark gray */
+    --background-color: #002642; /* Light gray */
 }
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-}
-nav.sociallinks a img {
-    text-decoration: none;
 
+/* General Styling */
+body {
+    font-family: 'Montserrat+Underline', sans-serif; /* Replace with your chosen Google Font */
+    color: var(--font-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
 }
-a {
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--font-color);
+    line-height: 1.6;
+}
+
+/* Remove underlines from social media image links */
+.nav .sociallinks a img {
     text-decoration: none;
+    border: none;
 }
+
+/* Hero Container */
+.hero {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 100%; /* Set a relative width */
+}
+
 .hero img {
-    display: black;
     width: 100%;
-    height: auto;
+    display: block;
 }
-h1 {
+
+.hero h1 {
     position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: var(--secondary-color);
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-article {
+
+.hero article {
     position: absolute;
-    background-color: var(--primary-color);
+    bottom: 10%;
+    left: 10%;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with transparency */
+    padding: 10px;
+    border-radius: 5px;
 }
-article img {
+
+.hero article img {
     float: right;
-    margin: 15px; 
+    margin-left: 10px;
+}
+
+.hero article p {
+    text-align: justify;
 }
