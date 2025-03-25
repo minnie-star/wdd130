@@ -20,41 +20,51 @@ header nav {
 }
 
 body {
-    width: 100%;
+    width: 1200px;
     padding: 0%;
-    margin: 0%; 
+    margin: 0 auto; 
 }
 
+.hero {
+    position: relative;
+}
 
 .hero img {
-    position: absolute;
-    width: auto;
+    position: relative;
+    width: 100%;
     height: auto;
-    
+    display: block;
 }
 
 .hero h1 {
     position: absolute;
-    transform: translate(-50%, -20%);
-    color: black;
+    top: 100px;
+    left: 0;
+    right: 0;
+    color: white;
     font-size: 2rem; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 4px;
+    text-align: center;
+    
 }
 
 .hero article {
     position: absolute;
-    background-color: rgb(255 255 255 0.8);
-    padding: 15px;
-    border-radius: 5px;
-    max-width: 300px;
+    background-color: lightblue;
+    top: 400px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
 }
 
 .hero article img {
     position: relative;
     float: right;
     display: block;
-    width: 100px;
-    height: auto
+    width: 300px;
+    height: auto;
+    
 }
 
 .hero article p {
@@ -74,3 +84,12 @@ footer .social img {
     height: 30px;
 }
 
+
+
+/*.hero article {
+    position: absolute;
+    background-color: rgb(255 255 255 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 300px;
+} */
