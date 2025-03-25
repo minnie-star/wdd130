@@ -37,7 +37,7 @@ main {
     width: 150px;
     height: auto;
     border: var(--border);
-    padding: 5px;
+    padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
     margin: 0 0 1rem 1rem
