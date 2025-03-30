@@ -12,7 +12,7 @@ header {
     display: grid;
     grid-template-columns: 120px 4fr 4fr;
     align-items: center;
-    border-bottom: 1px soild #ccc;
+    border-bottom: 1px #ccc;
     max-width: 1200px;
     
 }
@@ -121,7 +121,7 @@ body {
 
 .item2 {
     min-height: 200px;
-    min-width: 200;
+    min-width: 200px;
 }
 
 .item3 {
@@ -154,7 +154,6 @@ h2 {
 .flex-container figcaption {
     background-color: var(--background-color);
     color: #fff;
-    font: Montserrat;
     padding: 3px;
     text-align: center;
 }
