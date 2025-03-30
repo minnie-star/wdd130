@@ -100,27 +100,28 @@ body {
 .history-content {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start; /* Align items at the start of the container */
+    justify-content: flex-start;
     align-items: center;
-    gap: 20px; /* Add spacing between the image and paragraphs */
-    width: 100%; /* Ensure the content spans the entire section width */
+    gap: 20px; 
+    width: 100%; 
 }
 
 .history-image {
-    width: 30%; /* Adjust the image size relative to the space */
+    width: 30%; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .history-text,
 .left-paragraph {
-    width: 35%; /* Adjust both text blocks to occupy equal space */
-    font-size: 1rem; /* Ensure consistent font size */
-    line-height: 1.6; /* Improve readability */
+    width: 35%;
+    font-size: 1rem; 
+    line-height: 1.6; 
     color: black;
     font-family: serif;
-    text-align: justify; /* Align the text neatly */
+    text-align: justify; 
 }
+
 .flex-container {
     display: flex;
     flex-direction: row-reverse;
