@@ -97,36 +97,36 @@ body {
     color: black;
 }
 
-.history-content {
+.flex-container {
+    border: 3px;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px; 
-    width: 100%; 
+    justify-content: space-around;
+    width: 1200px;
 }
 
-.history-image {
-    width: 30%; 
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.flex-item {
+    width: 250px;
+    margin: 5rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    color: #333;
 }
 
-.history-text,
-.left-paragraph {
-    width: 35%;
-    font-size: 1rem; 
-    line-height: 1.6; 
-    color: black;
-    font-family: serif;
-    text-align: justify; 
+.item1 {
+    min-height: 200px;
+    min-width: 200px;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-flow: row;
+.item2 {
+    min-height: 200px;
+    min-width: 200;
+}
 
+.item3 {
+    min-height: 200px;
+    min-width: 200px;
 }
 
 h2 {
