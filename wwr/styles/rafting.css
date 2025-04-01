@@ -13,7 +13,7 @@ header {
     grid-template-columns: 120px 4fr 4fr;
     align-items: center;
     border-bottom: 1px #ccc;
-    max-width: 1200px;
+    max-width: 1400px;
     
 }
 
@@ -45,7 +45,7 @@ header nav:hover {
 }
 
 body {
-    width: 1200px;
+    width: 1400px;
     padding: 0%;
     margin: 0 auto; 
 }
