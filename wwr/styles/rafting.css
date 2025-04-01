@@ -158,6 +158,63 @@ h2 {
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contact-info {
+    width: 45%; 
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.contact-form {
+    width: 55%; 
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+.contact-info h1,
+.contact-info p {
+    margin: 10px 0;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+button {
+    background-color: rgb(43, 167, 244);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(54, 54, 242);
+}
+
 footer {
     display: flex;
     justify-content: space-between;
