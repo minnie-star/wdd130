@@ -27,7 +27,6 @@ header {
 
 header nav {
     align-items: center;
-    text-decoration: none;
     background-color: var(--background-color);
     padding: 1rem;
     justify-content: space-between;
@@ -38,16 +37,22 @@ header nav {
     left: 370px;
 }
 
+nav a {
+   text-decoration: none; 
+}
+
 header nav:hover {
     color: var(--font-color);
     font-weight: 800;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
     width: 1400px;
-    padding: 0%;
-    margin: 0 auto; 
 }
 
 .hero {
@@ -79,8 +84,9 @@ body {
     top: 400px;
     left: 0;
     right: 0;
-    text-align: center;
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
+    padding: 1rem
 }
 
 .hero article img {
@@ -103,30 +109,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1200px;
-}
-
-.flex-item {
-    width: 250px;
-    margin: 5rem;
-    padding: 0.5rem;
-    background-color: #fff;
-    color: #333;
-}
-
-.item1 {
-    min-height: 200px;
-    min-width: 200px;
-}
-
-.item2 {
-    min-height: 200px;
-    min-width: 200px;
-}
-
-.item3 {
-    min-height: 200px;
-    min-width: 200px;
+    width: 100%;
+    padding: 1rem;
 }
 
 h2 {
@@ -149,6 +133,7 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-flow: row;
+    padding: 1rem;
 }
 
 .flex-container figcaption {
@@ -160,13 +145,6 @@ h2 {
 
 h1 {
     text-align: center;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .container {
