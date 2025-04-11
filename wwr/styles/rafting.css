@@ -12,9 +12,8 @@ header {
     display: grid;
     grid-template-columns: 120px 4fr 4fr;
     align-items: center;
-    border-bottom: 1px #ccc;
+    border-bottom: 1px lightseagreen;
     max-width: 1400px;
-    
 }
 
 .logo {
@@ -24,6 +23,7 @@ header {
     position: relative;
     left: 170px;
 }
+
 
 header nav {
     align-items: center;
@@ -35,6 +35,7 @@ header nav {
     font-family: Montserrat;
     position: relative;
     left: 370px;
+    
 }
 
 nav a {
