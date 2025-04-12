@@ -180,7 +180,11 @@ input, textarea, button {
     border-radius: 5px;
 }
 
-
+.news-letter {
+    display: grid;
+    grid-template-columns: max-content;
+    padding: 5rem;
+}
 
 button {
     background-color: rgb(43, 167, 244);
